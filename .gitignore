@@ -1,0 +1,17 @@
+# Local agent notes hold private positioning; never publish them
+AGENTS.md
+CLAUDE.md
+.DS_Store
+
+# Contact-handler dependencies, local secrets and generated output
+node_modules/
+.wrangler/
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+
+# Private contact-service runtime state
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
