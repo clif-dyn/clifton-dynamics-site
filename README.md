@@ -1,6 +1,6 @@
 # Clifton Dynamics website
 
-A single-page website for Clifton Dynamics Pty Ltd. The intended public address is https://cliftondynamics.com.
+A single-page website for Clifton Dynamics Pty Ltd, published at https://cliftondynamics.com.
 
 ## Files and preview
 
@@ -16,7 +16,7 @@ Preview with `python3 -m http.server 8841`, then open `http://127.0.0.1:8841/con
 
 ## Contact service
 
-The service runs separately from GitHub Pages. The current preview is connected to the A8 through `https://a8.taild9a1ec.ts.net/enquiry`. Public-relay HTTPS and an actual browser submission have been tested, and inbox arrival was confirmed. The website is published separately through GitHub Pages.
+The service runs separately from GitHub Pages. The live website connects to the A8 through `https://a8.taild9a1ec.ts.net/enquiry`. On 22 October 2026, a browser submission from the live custom domain passed the spam check, was accepted by Proton and was confirmed in the receiving inbox. The website itself is hosted by GitHub Pages.
 
 Production allows only `https://cliftondynamics.com` and `https://www.cliftondynamics.com`. A local preview origin can be added temporarily for authorised testing, then removed. The form disables sending if its endpoint is cleared.
 
